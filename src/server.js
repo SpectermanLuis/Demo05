@@ -30,5 +30,4 @@ server.get('*', (request, response) => {
          "description": "No se encuentra la ruta o recurso solicitado."});
 });
 
-
 server.listen(PORT, HOST, () => console.log(`Ejecutandose en http://${HOST}:${PORT}`));
